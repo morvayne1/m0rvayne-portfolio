@@ -1,0 +1,132 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(rgb(62, 62, 62), white, rgb(30, 30, 30));
+    height: 100%;
+    padding: 20px 20px;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .main-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .catPhoto { width: 100%; max-width: 300px; }
+}
+
+.first-block {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items:center;
+    gap: 10px;
+}
+
+.morvayne {
+    flex-grow: 10;
+}
+
+
+.home-button {
+    background:transparent;
+    border:none;
+    cursor:pointer;
+    font: inherit;
+    flex-grow: 1;
+}
+
+.more-button {
+    background:transparent;
+    border:none;
+    cursor:pointer;
+    font: inherit;
+    flex-grow: 1;
+}
+
+.sign-button {
+    background:black;
+    border:black;
+    border-radius: 20px;
+    cursor:pointer;
+    font: inherit;
+    color: white;
+    padding: 7px 10px; 
+    flex-grow: 1;
+}
+
+.second-block {
+    display: flex;
+    flex-direction:column;
+    align-items:start;
+}
+
+.main-block.container {
+    display:flex;
+    justify-content:space-around;
+}
+
+h1 {
+    padding: 10px 5px 0px;
+    font-size: 45px;
+    margin: 0px;
+    
+}
+
+.intro {
+    margin: 10px;
+    color: rgb(72, 72, 72);
+}
+
+.check {
+    margin: 10px;
+    padding: 10px 20px;
+    font: inherit;
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.check:hover {
+    background: linear-gradient(135deg, black, gray, black);
+    background-size: 200%;
+    background-position: right;
+    color: black; 
+}
+
+.catPhoto {
+    width: 320px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.main-block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.footer {
+    text-align: center;
+    opacity: 50%;
+    padding: 20px;
+    margin-top: auto;
+}
+
+#find-me {
+    margin-left: 100px;
+    margin-top: 0px;
+    display: none;
+}
+
+.near-img-text {
+    line-height: 1.6;
+}
