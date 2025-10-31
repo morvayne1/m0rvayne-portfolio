@@ -1,6 +1,6 @@
 # m0rvayne — Personal Portfolio
 
-![Preview](catavatar.jpg)
+<image-card alt="Preview" src="preview.jpg" ></image-card> 
 
 ## About Me
 - **Junior Frontend Developer**
@@ -17,5 +17,9 @@
 ## Tech Stack
 - HTML5 / CSS3 / JavaScript
 
+## Live Demo
+[View Live](https://morvayne1.github.io/m0rvayne-portfolio)
+
 ---
+*Currently in Odessa, Ukraine*
 *Relocating to Cluj-Napoca, Romania*
